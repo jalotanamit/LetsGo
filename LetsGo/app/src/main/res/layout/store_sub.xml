@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingRight="24dp"
+    android:paddingLeft="24dp"
+   >
+
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/imageButton12"
+        android:src="@drawable/electronics"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="112dp" />
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/imageButton13"
+        android:src="@drawable/hardware"
+        android:layout_alignTop="@+id/imageButton12"
+        android:layout_alignLeft="@+id/imageButton14"
+        android:layout_alignStart="@+id/imageButton14" />
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/imageButton14"
+        android:layout_alignTop="@+id/imageButton15"
+        android:src="@drawable/store"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/imageButton15"
+        android:layout_marginBottom="78dp"
+        android:src="@drawable/bak"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Electronics"
+        android:textStyle="bold"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/imageButton12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Hardware"
+        android:textStyle="bold"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/imageButton13"
+        android:layout_alignLeft="@+id/imageButton13"
+        android:layout_alignStart="@+id/imageButton13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Bakery"
+        android:textStyle="bold"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/imageButton14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Home Goods"
+        android:textStyle="bold"
+        android:id="@+id/textView19"
+        android:layout_below="@+id/imageButton14"
+        android:layout_alignLeft="@+id/imageButton14"
+        android:layout_alignStart="@+id/imageButton14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="STORES"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:id="@+id/textView20"
+        android:layout_above="@+id/imageButton13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp" />
+
+</RelativeLayout>
